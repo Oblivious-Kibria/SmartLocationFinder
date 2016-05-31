@@ -39,6 +39,7 @@ import java.util.List;
 
 
 public class MapsActivity extends FragmentActivity implements OnMapReadyCallback, GoogleApiClient.ConnectionCallbacks, GoogleApiClient.OnConnectionFailedListener, LocationListener, DirectionFinderListener  {
+    // SLF has been uploaded on Github successfully!
 
     private GoogleMap mMap;
     public static final int REQUEST_GOOGLE_PLAY_SERVICES = 1972;
