@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context="com.example.amazingaayan.smartlocationfinder.MapSettingActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="103dp">
+
+        <Spinner
+            android:id="@+id/spinnerRadious"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:spinnerMode="dropdown"
+            android:splitMotionEvents="false"
+            android:drawSelectorOnTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_toEndOf="@+id/radiousIcon"
+            android:layout_toRightOf="@+id/radiousIcon" />
+
+        <TextView
+            android:id="@+id/spinnerHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Search Radious:"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:layout_above="@+id/radiousIcon"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageButton
+            android:id="@+id/radiousIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:src="@drawable/radious_icon" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/mapType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Map Type:"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageView
+            android:id="@+id/mayTypeIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/mapType"
+            android:src="@drawable/map_types" />
+
+        <Spinner
+            android:id="@+id/mapTypeSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:spinnerMode="dropdown"
+            android:drawSelectorOnTop="true"
+            android:splitMotionEvents="false"
+            android:layout_below="@+id/mapType"
+            android:layout_toRightOf="@+id/mayTypeIcon"
+            android:layout_toEndOf="@+id/mayTypeIcon"
+            android:layout_alignBottom="@+id/mayTypeIcon" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

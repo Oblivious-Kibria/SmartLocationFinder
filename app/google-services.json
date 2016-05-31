@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "760387719658",
+    "project_id": "smart-location-finder"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:760387719658:android:bd4f07a1f09e8ca1",
+        "android_client_info": {
+          "package_name": "com.example.amazingaayan.smartlocationfinder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "760387719658-c6tlctq6s9bvqsa8nte3j8acb94osm8j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.amazingaayan.smartlocationfinder",
+            "certificate_hash": "0EA9148AE705FCF9C7F1E69BBC5F631FC55E2089"
+          }
+        },
+        {
+          "client_id": "760387719658-iha4551kmlljm621sb125rtnonqaupd8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAx9RuWb7Hc2ZM9bD9C7GupQy67307SVG8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

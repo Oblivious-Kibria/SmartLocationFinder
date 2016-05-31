@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">SLF</string>
+    <string name="app_label">SLF</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="signed_in_fmt">Signed in as: %s</string>
+    <string name="server_client_id">760387719658-2j8udpaqgr5akr7km0cqbpqkpc6ra201.apps.googleusercontent.com</string>
+
+    <string name="loading">Loading…</string>
+    <string name="title_activity_maps">Map</string>
+
+    <array name="mapType_arrays">
+        <item>NONE</item>
+        <item>NORMAL</item>
+        <item>SATELLITE</item>
+        <item>TERRAIN</item>
+        <item>HYBRID</item>
+    </array>
+</resources>
